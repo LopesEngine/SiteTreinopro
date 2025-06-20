@@ -8,3 +8,4 @@ export async function loadNavBar() {
  const navBarScript = document.createElement('script');
  navBarScript.src = './js/global/navBar/navBar.js';
  document.body.appendChild(navBarScript);
+}
